@@ -23,7 +23,6 @@ public class TeacherAdminController {
 
     @GetMapping
     public R teacherList() {
-        System.out.println("请求进来了");
         List<Teacher> teacherList = teacherService.list(null);
         return R.ok().data("items",teacherList);
     }
@@ -41,6 +40,25 @@ public class TeacherAdminController {
         List<Teacher> records = teacherIPage.getRecords();
         long total = teacherIPage.getTotal();
         return R.ok().data("total", total).data("rows", records);
+    }
+
+    @PostMapping
+    public R saveOne(Teacher teacher) {
+        teacherService.save(teacher);
+        return R.ok();
+    }
+
+    @PutMapping("{id}")
+    public R updateOneById(Teacher teacher,@PathVariable("id") String id) {
+        teacher.setId(id);
+        teacherService.updateById(teacher);
+        return R.ok();
+    }
+
+    @GetMapping("{id}")
+    public R queryOneById(@PathVariable("id") String id) {
+        Teacher teacher = teacherService.getById(id);
+        return R.ok().data("item", teacher);
     }
 
 }
