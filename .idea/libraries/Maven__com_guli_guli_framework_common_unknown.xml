@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.guli:guli-framework-common:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guli/guli-framework-common/unknown/guli-framework-common-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guli/guli-framework-common/unknown/guli-framework-common-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guli/guli-framework-common/unknown/guli-framework-common-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
