@@ -3,6 +3,8 @@ package com.guli.edu.controller.admin;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.guli.common.constants.ResultCodeEnum;
+import com.guli.common.exception.GuliException;
 import com.guli.common.vo.R;
 import com.guli.edu.entity.Teacher;
 import com.guli.edu.query.TeacherQuery;
