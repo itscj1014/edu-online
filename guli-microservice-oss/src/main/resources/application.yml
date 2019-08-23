@@ -1,0 +1,18 @@
+# 端口号
+server:
+  port: 8130
+# 应用名称
+spring:
+  application:
+    name: guli-aliyunoss
+  profiles:
+    active: dev
+# 阿里云 oss
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAIoXHZGLXmRoPa
+      keysecret: NGzr5TUkVDKAppbrnQZ9FQiu83fIR6
+      bucketname: cj-file
+      firsthost: avatar

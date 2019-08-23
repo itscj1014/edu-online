@@ -1,7 +1,6 @@
 package com.guli.common.handler;
 
 import com.guli.common.exception.GuliException;
-import com.guli.common.util.ExceptionUtil;
 import com.guli.common.vo.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;

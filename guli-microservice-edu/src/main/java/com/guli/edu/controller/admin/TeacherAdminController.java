@@ -23,7 +23,6 @@ public class TeacherAdminController {
 
     @GetMapping
     public R teacherList() {
-        int i = 1 / 0;
         List<Teacher> teacherList = teacherService.list(null);
         return R.ok().data("items",teacherList);
     }

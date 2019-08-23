@@ -1,0 +1,7 @@
+server:
+  port: 8120
+spring:
+  application:
+    name: guli-sysuser
+  profiles:
+    active: dev
